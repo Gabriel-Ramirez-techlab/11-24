@@ -1,0 +1,112 @@
+.body{
+    color: aquamarine;
+}
+
+.hero-bg{
+    background-image: url(iamges/img1.jpg);
+    background-size: cover; height:300px;
+    
+}
+
+.hero-text{
+    display: flex;
+    align-items: center;
+ color: rgb(34, 15, 51);
+   flex-direction: column;
+   align-content: center;
+   
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  li {
+    border: double;
+    border: #faf5f5;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #5d5c5c;
+  }
+
+
+  .card {
+    margin-left: 16%;
+    margin-right: 2%;
+      background-color: #ffffff;
+      width: 450px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    margin-bottom: 10%;
+    }
+    
+    
+    
+    
+
+    .card-container {
+     padding-top: 5px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+    
+     
+    }
+    .card2 img {
+      width: 25%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+     
+    }
+    .card2 h3 {
+      margin: 10px 0 10px;
+    }
+    .card2 p {
+      color: #555;
+    }
+
+    .card2-container2{
+        display: flex;
+        padding-top: 5px;
+        flex-direction: row;
+        gap: 5px;
+        
+    }
+    
+    .card2 img {
+        width: 25%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+       
+      }
+      .card2 h3 {
+        margin: 10px 0 10px;
+      }
+      .card2 p {
+        color: #555;
+      }
+      .middle-cards{
+        justify-content: center;
+      }
