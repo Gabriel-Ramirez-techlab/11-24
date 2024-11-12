@@ -1,25 +1,29 @@
-.body{
-    color: aquamarine;
-}
+
 
 .hero-bg{
-    background-image: url(iamges/img11.jpg);
-    background-size: cover; height:300px;
-    
+  background: url('iamges/img11.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
 }
 
 .hero-text{
     display: flex;
     align-items: center;
- color: rgb(34, 15, 51);
+ 
    flex-direction: column;
    align-content: center;
-   
+   font-size: 1rem;
+   margin-bottom: 1rem;
 }
 
+.nav{
+  background-color: #333;
+  padding: 1rem;
+  text-align:center
+}
 
-
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,12 +33,12 @@ ul {
     justify-content: center;
   }
   
-  li {
-    border: double;
-    border: #faf5f5;
+.nav li {
+  display: inline;
+   margin:0 1rem;
   }
   
-  li a {
+  .nav a {
     display: block;
     color: white;
     text-align: center;
@@ -43,70 +47,111 @@ ul {
   }
   
 
-  li a:hover {
+  .nav li a:hover {
     background-color: #5d5c5c;
   }
 
 
-  .card {
-    margin-left: 16%;
-    margin-right: 2%;
-      background-color: #ffffff;
-      width: 450px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 20px;
+  .card, .service {
+
       text-align: center;
     margin-bottom: 10%;
+    flex: 1;
+    
     }
     
-    
-    
-    
+  .card img, .service img{
+    width: 100%;
+    height: auto;
+  }
 
-    .card-container {
-     padding-top: 5px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 5px;
+    .card-container, .services-columns {
+    display: flex;
+    gap:1rem;
+    padding: 2rem;
+    justify-content:center;
     
-     
-    }
-    .card2 img {
-      width: 25%;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 10px;
-     
-    }
-    .card2 h3 {
-      margin: 10px 0 10px;
-    }
-    .card2 p {
-      color: #555;
     }
 
-    .card2-container2{
-        display: flex;
-        padding-top: 5px;
-        flex-direction: row;
-        gap: 5px;
-        
-    }
-    
-    .card2 img {
-        width: 25%;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 10px;
-       
-      }
-      .card2 h3 {
-        margin: 10px 0 10px;
-      }
-      .card2 p {
-        color: #555;
-      }
       .middle-cards{
         justify-content: center;
       }
+
+      .two-columns {
+        display: flex;
+        gap: 1rem;
+        padding: 2rem;
+        justify-content: center;
+    }
+
+.strip{
+  background: url('iamges/img13.jpg') no-repeat top/cover;
+  height: 100px;
+  
+}
+.services {
+ 
+  background-color: #e9ecef;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 1rem;
+}
+
+.single-column {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: #f4f4f4;
+  flex-direction: column;
+}
+
+
+
+.contact-form {
+  background: url('iamges/img14.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 3rem;
+  text-align: center;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.btn-green, .btn-blue, .btn-red, button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5d5c5c;
+}
+
+.btn-green {
+  background-color: #28a745;
+}
+
+.btn-blue {
+  background-color: #007bff;
+}
+
+.btn-red {
+  background-color: #dc3545;
+}
