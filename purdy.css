@@ -110,6 +110,7 @@
 }
 
 
+
 .contact-form {
   background: url('iamges/img14.jpg') no-repeat center center/cover;
   color: #fff;
@@ -125,11 +126,13 @@
   border-radius: 8px;
 }
 
+
 footer {
   background: #333;
   color: #fff;
   text-align: center;
   padding: 1rem;
+
 }
 
 .btn-green, .btn-blue, .btn-red, button {
@@ -138,6 +141,7 @@ footer {
   border: none;
   cursor: pointer;
   color: #fff;
+  background-color: #5d5c5c;
 }
 
 .btn-green {
