@@ -62,7 +62,17 @@
     background-color:#F2F2F2;
    
     }
+
+  .card2{
     
+    text-align: center;
+    margin-bottom: 10%;
+    flex: 1;
+    background-color:#F2F2F2;
+    font-size: 1em;
+  
+  }
+  
   .card img, .service img{
     width: 100%;
     height: auto;
@@ -73,8 +83,8 @@
     gap:1rem;
     padding: 2rem;
     justify-content:center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 17%;
+    margin-right: 17%;
     }
 
       .middle-cards{
@@ -91,9 +101,11 @@
 .strip{
 
   background: url('iamges/img13.jpg') no-repeat top/cover;
-  height: 200px;
+ height: 200px;
+
   justify-content: center;
   align-content: center;
+  
 }
 .services {
  
@@ -106,22 +118,30 @@
   margin-bottom: 1rem;
 }
 .single-column img{
-  justify-content: center;
-  
+  width: 100%;
+  height: auto;
 }
 .single-column {
-  display: flex;
-  gap: 1rem;
-  padding: 2rem;
-  align-items: center;
-  flex-direction: column;
   background-color:#F2F2F2;
-  margin-left: 16%;
-  margin-right:16%;
+  
+
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 20%;
+  margin-right:20%;
+  padding: 10px;
+  
 }
 .single-column p{
+padding: 20px;
 
-display: flex;
+}
+
+.single-column button{
+  background-color: #fffcfc;
+  color: #333;
+  border-radius: 6%;
+  border: outset;
 }
 .single-column h3{
  
@@ -130,18 +150,45 @@ display: flex;
 
 
 .contact-form {
+  
   background: url('iamges/img14.jpg') no-repeat center center/cover;
-  color: #fff;
+  color:#5d5c5c;
   padding: 3rem;
   text-align: center;
+ justify-content: center;
 }
 
 .contact-form form {
-  max-width: 600px;
-  margin: 0 auto;
+display: flex;
+justify-self: center;
+justify-items: center;
+opacity: 75%;
+}
+
+.contact-form textarea{
+
+}
+
+.left-in{
+
+  display: flex;
+  flex-direction: column;
   background: rgba(255, 255, 255, 0.8);
   padding: 1rem;
   border-radius: 8px;
+  align-items: flex-start;
+
+}
+.contact-form p{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f2f2f2;
+  opacity: 70%;
+  color: #333;
+  margin-left: 30%;
+  margin-right: 30%;
+
 }
 
 
@@ -164,12 +211,29 @@ footer {
 
 .btn-green {
   background-color: #28a745;
+  color: #fbfafa;
+  border-radius: 6%;
+  border: outset;
 }
 
 .btn-blue {
   background-color: #007bff;
+  color: #fbfafa;
+  border-radius: 6%;
+  border: outset;
 }
 
 .btn-red {
   background-color: #dc3545;
+
+  color: #fbfafa;
+  border-radius: 6%;
+  border: outset;
+}
+
+.head1{
+color: #28a745;
+}
+.head2{
+  color:#007bff
 }
